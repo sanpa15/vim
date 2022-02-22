@@ -1,4 +1,4 @@
-# IN TERMINAL ctrl+shift+p  for using copy
+# IN TERMINAL ctrl+shift+c  for using copy
 # IN TERMINAL ctrl+shift+v  for using paste
 
 y = copy the line
