@@ -1,14 +1,27 @@
+# IN TERMINAL ctrl+shift+p  for using copy
+# IN TERMINAL ctrl+shift+v  for using paste
+
 y = copy the line
 
+yy =copy the current line
+
+p =paste the line in before the cursor position
+
+P =paste the line in after the cursor position
+
 d =delete the line
+
+dd =delete the current line
 
 [[ or gg = bigining the file
 
 ]] or G  =end on the file
 
-I =bigining in the line
+M =middle on the line
 
-A =end on the line
+I =bigining in the line (right to left)
+
+A =end on the line (left to right )
 
 o =open new line in after the cursor
 
@@ -18,9 +31,9 @@ i =insert word in before the cursor
 
 a =insert word in after the cursor
 
-x =delete a letter
+x =delete a letter in currencursor position
 
-X =before delete the letter on cursor
+X =before deletion on the cursor
 
 p = put a letter
 
@@ -29,3 +42,6 @@ r =replace the letter
 u =undo last change
 
 U =undo change the last line 
+
+:setnumber =number given all lines 
+ex:setnember filename (toal files have numbers)
