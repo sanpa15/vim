@@ -43,5 +43,14 @@ u =undo last change
 
 U =undo change the last line 
 
+/ =searching the word or name 
+
 :setnumber =number given all lines 
 ex:setnember filename (toal files have numbers)
+
+  :w – Save the changes but don’t exit
+  :wq – Save and quit
+  :q – Just Quit (if you have unsaved changes, you’ll see this warning: E37: No write since last change (add ! to override))
+  :q! – Force quit (it will discard any unsaved changes)
+
+
